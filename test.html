@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dit is een voorbeeld</title>
+</head>
+
+<style>
+    .floating-box{
+        float: left;
+        width: 40% ;
+
+        margin: 10px;
+        border: 3px solid#73AD21;
+
+    }
+    .knop {
+        float: right;
+    }
+    .goed {
+        float: right;
+    }
+
+    .voornaam{
+        padding-right: 44px;
+    }
+    .tussenvoegsel{
+        padding-right: 15px;
+
+    }
+    .achternaam{
+        padding-right: 31px;
+    }
+    .geslacht{
+        padding-right: 50px;
+    }
+    .ogen{
+        padding-right: 32px;
+    }
+    .omschrijving {
+        padding-right: 20px;
+        float: left;
+
+    }
+    .geboortedatum{
+        padding-right: 5px;
+    }
+
+
+
+
+
+
+</style>
+<body>
+
+<p>This is some text.</p>
+<form>
+<div class="floating-box">
+    <h3>This is a heading in a div element</h3>
+    <p>This is some text in a div element.</p>
+    <ul>
+    <li>
+        <label class="voornaam" for="voornaam">Voornaam</label>
+        <input class="tekst" type="text" name="voornaam" id="voornaam" />
+    </li>
+        <p></p>
+
+    <li>
+        <label class="tussenvoegsel" for="Tussenvoegsel">Tussenvoegsel</label>
+        <input type="text" name="tussenvoegsel" id="Tussenvoegsel"/>
+    </li>
+
+        <p></p>
+
+    <li>
+        <label class="achternaam" for="Achternaam">Achternaam</label>
+        <input type="text" name="achternaam" id="achternaam" />
+
+    </li>
+<p></p>
+
+    <li>
+        <label class="geslacht" for="Geslacht" id="Geslacht">Geslacht</label>
+        <input type="radio" name="Geslacht" value="Man"/> &nbsp;Man
+        <input type="radio"  name="Geslacht" value="Vrouw"/> &nbsp; Vrouw
+    </li>
+<p></p>
+    <li>
+
+        <label class="ogen" >Kleur ogen</label>
+
+        <select>
+            <option value="Groen">Groen</option>
+            <option value="Blauw">Blauw</option>
+            <option value="Rood">Rood</option>
+        </select>
+    </li>
+        <p></p>
+
+    <li>
+        <label class="geboortedatum" for="Geboortedatum" id="Geboortedatum">Geboortedatum</label>
+        <input type="date" name="bday">
+    </li>
+<p></p>
+
+
+    <label  class="omschrijving" for="Omschrijving" id="Omschrijving">Omschrijving</label>
+
+    <textarea rows="7" cols="26">
+
+
+
+            </textarea>
+
+    </ul>
+</div>
+</form>
+
+<form>
+<div style="background-color:#8befb1; height:700px; width:300px;display:inline-block;">
+    <h3>This is a heading in a div element</h3>
+    <p>This is some text in a div element.</p>
+    <ul>
+    <form action="">
+        <label for="Lekker eten" id="Lekker eten">Lekker eten:</label>
+        <br>
+        <input type="checkbox" name="Sperziebonen" value="Sperziebonen">Sperziebonen
+        <br>
+        <input type="checkbox" name="Aardappelen" value="Aardappelen">Aardappelen
+        <br>
+        <input type="checkbox" name="Hamburger" value="Hamburger">Hamburger
+
+
+
+    </form>
+    </ul>
+</div>
+
+
+<div style="background-color: #ffccf4; height:300px; width: 800px; display: inline-block;">
+    <ul>
+    <h3>dit is een div element.</h3>
+    <p>dit is een tekstje </p>
+<button class="knop" type="button" onclick="alert('Druk op OK!')">Annuleer</button>
+    <input class="goed" type="submit" value="OK">
+    </ul>
+
+</div>
+</form>
